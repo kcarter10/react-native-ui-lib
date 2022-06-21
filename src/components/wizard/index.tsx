@@ -3,7 +3,7 @@ import {StyleSheet} from 'react-native';
 import View from '../view';
 import {Constants, asBaseComponent} from '../../commons/new';
 import Colors from '../../style/colors';
-import Shadows from '../../style/shadows';
+// import Shadows from '../../style/shadows';
 import WizardStep from './WizardStep';
 import {StatesConfig} from './WizardStates';
 import {WizardProps, WizardStepProps, WizardStepStates, WizardStepConfig, WizardStepsConfig} from './types';
@@ -109,8 +109,8 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-between',
     width: '100%',
-    ...Shadows.sh10.bottom,
-    borderBottomWidth: 1,
+    // ...Shadows.sh10.bottom,
+    borderBottomWidth: 0,
     borderBottomColor: Colors.$outlineDisabled
   }
 });

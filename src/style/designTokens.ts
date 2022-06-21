@@ -1,4 +1,7 @@
-import {colorsPalette} from './colorsPalette';
+import {
+  colorsPalette,
+  themeColors
+} from './colorsPalette';
 
 export default {
   // BACKGROUND
@@ -9,9 +12,9 @@ export default {
   $backgroundNeutralMedium: colorsPalette.grey60,
   $backgroundNeutral: colorsPalette.grey70,
   $backgroundNeutralLight: colorsPalette.grey80,
-  $backgroundPrimaryHeavy: colorsPalette.violet30,
-  $backgroundPrimaryLight: colorsPalette.violet70,
-  $backgroundPrimary: colorsPalette.violet80,
+  $backgroundPrimaryHeavy: themeColors.primaryDarkest,
+  $backgroundPrimaryLight: themeColors.primaryLight,
+  $backgroundPrimary: themeColors.primary,
   $backgroundGeneralHeavy: colorsPalette.blue30,
   $backgroundGeneralLight: colorsPalette.blue70,
   $backgroundGeneral: colorsPalette.blue80,
@@ -36,7 +39,7 @@ export default {
   $textNeutral: colorsPalette.grey30,
   $textNeutralLight: colorsPalette.grey40,
   $textDefaultLight: colorsPalette.white,
-  $textPrimary: colorsPalette.violet30,
+  $textPrimary: themeColors.primary,
   $textGeneral: colorsPalette.blue30,
   $textSuccess: colorsPalette.green10,
   $textSuccessLight: colorsPalette.green30,
@@ -48,8 +51,8 @@ export default {
   $iconDefault: colorsPalette.grey10,
   $iconNeutral: colorsPalette.grey20,
   $iconDefaultLight: colorsPalette.white,
-  $iconPrimary: colorsPalette.violet30,
-  $iconPrimaryLight: colorsPalette.violet50,
+  $iconPrimary: themeColors.primary,
+  $iconPrimaryLight: themeColors.primaryLight,
   $iconGeneral: colorsPalette.blue30,
   $iconGeneralLight: colorsPalette.blue50,
   $iconSuccess: colorsPalette.green10,
@@ -63,7 +66,7 @@ export default {
   $outlineDefault: colorsPalette.grey60,
   $outlineDisabled: colorsPalette.grey50,
   $outlineDisabledHeavy: colorsPalette.grey30,
-  $outlinePrimary: colorsPalette.violet30,
+  $outlinePrimary: themeColors.primary,
   $outlineGeneral: colorsPalette.blue30,
   $outlineWarning: colorsPalette.yellow30,
   $outlineDanger: colorsPalette.red30,

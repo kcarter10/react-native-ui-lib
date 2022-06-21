@@ -18,6 +18,7 @@ import {
   TabController
 } from 'react-native-ui-lib'; //eslint-disable-line
 import {navigationData} from './MenuStructure';
+import {themeColors} from '../../../src/style/colorsPalette';
 
 const settingsIcon = require('../assets/icons/settings.png');
 const chevronIcon = require('../assets/icons/chevronRight.png');

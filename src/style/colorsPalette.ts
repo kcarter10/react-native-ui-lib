@@ -112,7 +112,18 @@ const extraFixColorsMap = {
 };
 
 const themeColors = {
-  primary: colorsPalette.violet30
+  primary: '#5F9A5B',
+  primaryLight: '#7aab75',
+  primaryLighter: '#94bb8f',
+  primaryLightest: '#afccaa',
+  primaryDark: '#468142',
+  primaryDarker: '#235E1F',
+  primaryDarkest: '#134E0F',
+  // primaryDarkest: '#235E1F',
+  secondary: '#DB9F2B',
+  secondary50: '#E3B45A',
+  secondary100: '#EBC97E',
+  backgroundDark: '#323131'
 };
 
 export {colorsPalette, themeColors, extraFixColorsMap};

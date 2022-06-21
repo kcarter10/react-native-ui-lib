@@ -1,7 +1,17 @@
 import _ from 'lodash';
 import React, {Component} from 'react';
 import {StyleSheet, ScrollView} from 'react-native';
-import {View, Button, Wizard, Text, RadioGroup, RadioButton, TextField, Toast} from 'react-native-ui-lib';
+import {
+  View,
+  Button,
+  Wizard,
+  Text,
+  RadioGroup,
+  RadioButton,
+  TextField,
+  Toast,
+  Colors
+} from 'react-native-ui-lib';
 
 const flavors = ['Chocolate', 'Vanilla'];
 const initialFlavor = flavors[0];
